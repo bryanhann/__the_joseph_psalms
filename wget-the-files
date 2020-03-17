@@ -1,0 +1,7 @@
+DOWNLOAD=$(dirname $0)/__download__
+mkdir -p ${DOWNLOAD}
+ii=0
+while [ true  ]; do
+    wget --waitretry 10 -c https://www.bible.com/ur/bible/2296/PSA.${ii} -O ${DOWNLOAD}/foo.${ii}.html
+    ii=$(( $ii + 1  ))
+done
