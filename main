@@ -1,0 +1,6 @@
+rm output.tmp 2> /dev/null
+touch output.tmp
+for NUM in $(seq 1 150); do
+    ./psalm.sh -t $NUM >> output.tmp
+    echo >> output.tmp
+done
