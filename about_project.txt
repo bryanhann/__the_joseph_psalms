@@ -1,4 +1,0 @@
-We are trying to download and parse out psalms from the pages with format
-    https://www.bible.com/ur/bible/2296/PSA.1.%E6%96%BD%E7%B4%84%E7%91%9F%E6%B7%BA%E6%96%87%E7%90%86
-
-The html of this page has been downloaded the significant portion saves as [./formattted.xml].

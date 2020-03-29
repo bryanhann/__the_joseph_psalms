@@ -1,0 +1,7 @@
+We are trying to download and parse out bible chapters from urls with the following format:
+    https://www.bible.com/ur/bible/2296/<book>.<chapter>
+
+Where
+    <book> is a three character code for the bible book, and
+    <chapter> is a string from '1' through (in the case if the psalms) '150'.
+
